@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController,UITextFieldDelegate {
 
-    //アラート表示　宣言
+    
     var alertController: UIAlertController!
     @IBOutlet weak var priceTextField: UITextField!
     @IBOutlet weak var numberOfStuckTextField: UITextField!
@@ -31,18 +31,18 @@ class ViewController: UIViewController,UITextFieldDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         priceTextField.text = ""
-         numberOfStuckTextField.text = ""
-         earningTextField.text = ""
-         assetTextField.text = ""
-         equityTextField.text = ""
+        numberOfStuckTextField.text = ""
+        earningTextField.text = ""
+        assetTextField.text = ""
+        equityTextField.text = ""
     }
-     
+    
 
-    //メソッド
-     func alert(title:String, message:String) {
-            alertController = UIAlertController(title: title,message: message,preferredStyle: .alert)
-            alertController.addAction(UIAlertAction(title: "OK",style: .default,handler: nil))
-            present(alertController, animated: true)
+   
+    func alert(title:String, message:String) {
+        alertController = UIAlertController(title: title,message: message,preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "OK",style: .default,handler: nil))
+        present(alertController, animated: true)
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         resultButton.sendActions(for: .touchUpInside)
@@ -57,10 +57,10 @@ class ViewController: UIViewController,UITextFieldDelegate {
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         if identifier == "result"{
             guard priceTextField.text != "" && numberOfStuckTextField.text != "" && earningTextField.text != "" && assetTextField.text != "" && equityTextField.text != "" else{
-                    alert(title: "エラー", message: "入力して下さい")
+                alert(title: "エラー", message: "入力して下さい")
                 return false
             }
-             
+            
         }
         return true
     }
@@ -71,16 +71,16 @@ class ViewController: UIViewController,UITextFieldDelegate {
         }
         if identifire == "result"{
             let resultVC = segue.destination as! ResultViewController
-            resultVC.price = Double(priceTextField.text!)!
-            resultVC.stock = Double(numberOfStuckTextField.text!)!
-            resultVC.earning = Double(earningTextField.text!)!
-            resultVC.asset = Double(assetTextField.text!)!
-            resultVC.equity = Double(equityTextField.text!)!
+            resultVC.price = Float(priceTextField.text!)!
+            resultVC.stock = Float(numberOfStuckTextField.text!)!
+            resultVC.earning = Float(earningTextField.text!)!
+            resultVC.asset = Float(assetTextField.text!)!
+            resultVC.equity = Float(equityTextField.text!)!
             self.priceTextField.resignFirstResponder()
-             self.numberOfStuckTextField.resignFirstResponder()
-             self.earningTextField.resignFirstResponder()
-             self.assetTextField.resignFirstResponder()
-             self.equityTextField.resignFirstResponder()
+            self.numberOfStuckTextField.resignFirstResponder()
+            self.earningTextField.resignFirstResponder()
+            self.assetTextField.resignFirstResponder()
+            self.equityTextField.resignFirstResponder()
         }
     }
 
