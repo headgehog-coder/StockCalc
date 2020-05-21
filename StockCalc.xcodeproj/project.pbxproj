@@ -13,6 +13,7 @@
 		AD6C230524762801008DDB82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6C230324762801008DDB82 /* Main.storyboard */; };
 		AD6C230724762803008DDB82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6C230624762803008DDB82 /* Assets.xcassets */; };
 		AD6C230A24762803008DDB82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6C230824762803008DDB82 /* LaunchScreen.storyboard */; };
+		AD6C23122476350F008DDB82 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C23112476350F008DDB82 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AD6C230624762803008DDB82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD6C230924762803008DDB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD6C230B24762803008DDB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD6C23112476350F008DDB82 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AD6C230624762803008DDB82 /* Assets.xcassets */,
 				AD6C230824762803008DDB82 /* LaunchScreen.storyboard */,
 				AD6C230B24762803008DDB82 /* Info.plist */,
+				AD6C23112476350F008DDB82 /* ResultViewController.swift */,
 			);
 			path = StockCalc;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				AD6C230224762801008DDB82 /* ViewController.swift in Sources */,
 				AD6C22FE24762801008DDB82 /* AppDelegate.swift in Sources */,
 				AD6C230024762801008DDB82 /* SceneDelegate.swift in Sources */,
+				AD6C23122476350F008DDB82 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

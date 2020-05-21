@@ -16,62 +16,68 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="入力して下さい" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iHS-RB-HWj">
-                                <rect key="frame" x="30" y="172" width="354" height="34"/>
+                                <rect key="frame" x="30" y="167" width="354" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="入力して下さい" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lph-ws-zHh">
-                                <rect key="frame" x="30" y="266" width="354" height="34"/>
+                                <rect key="frame" x="30" y="261" width="354" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="入力して下さい" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YKM-xC-jut">
-                                <rect key="frame" x="30" y="360" width="354" height="34"/>
+                                <rect key="frame" x="30" y="355" width="354" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="入力して下さい" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k5M-x4-6XH">
-                                <rect key="frame" x="30" y="454" width="354" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="入力して下さい" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Y9-3u-CH3">
-                                <rect key="frame" x="30" y="548" width="354" height="34"/>
+                                <rect key="frame" x="30" y="449" width="354" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="株価" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opP-ac-VX7">
-                                <rect key="frame" x="181.5" y="132" width="51" height="30"/>
+                                <rect key="frame" x="181.5" y="127" width="51" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="発行済株式数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6o-Ka-n4f">
-                                <rect key="frame" x="131" y="226" width="152" height="30"/>
+                                <rect key="frame" x="131" y="221" width="152" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当期純利益" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sER-fR-yra">
-                                <rect key="frame" x="143.5" y="320" width="127" height="30"/>
+                                <rect key="frame" x="143.5" y="315" width="127" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="総資産" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2v-yX-pi0">
-                                <rect key="frame" x="169" y="414" width="76" height="30"/>
+                                <rect key="frame" x="169" y="409" width="76" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="純資産(自己資本)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4C-kv-lv8">
-                                <rect key="frame" x="110" y="508" width="194.5" height="30"/>
+                                <rect key="frame" x="110" y="503" width="194.5" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9w-hI-Ddr">
-                                <rect key="frame" x="50" y="622" width="314" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="投資指標計算" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDy-gO-wI5">
+                                <rect key="frame" x="86.5" y="59" width="241.5" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="入力して下さい" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Y9-3u-CH3">
+                                <rect key="frame" x="30" y="541" width="354" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9w-hI-Ddr">
+                                <rect key="frame" x="50" y="595" width="314" height="60"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="UYj-gY-Ztw"/>
@@ -89,12 +95,6 @@
                                     <segue destination="vEM-OQ-OqD" kind="presentation" identifier="result" modalPresentationStyle="fullScreen" id="7LA-UQ-dfE"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="投資指標計算" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDy-gO-wI5">
-                                <rect key="frame" x="86.5" y="59" width="241.5" height="48"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -116,12 +116,12 @@
                             <constraint firstItem="x2v-yX-pi0" firstAttribute="top" secondItem="YKM-xC-jut" secondAttribute="bottom" constant="20" id="HEa-2O-XkE"/>
                             <constraint firstItem="4Y9-3u-CH3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IfA-af-CPF"/>
                             <constraint firstItem="y6o-Ka-n4f" firstAttribute="top" secondItem="iHS-RB-HWj" secondAttribute="bottom" constant="20" id="Jh0-sQ-dLF"/>
+                            <constraint firstItem="o9w-hI-Ddr" firstAttribute="top" secondItem="4Y9-3u-CH3" secondAttribute="bottom" constant="20" id="MQa-IW-tQs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k5M-x4-6XH" secondAttribute="trailing" constant="30" id="Pl6-VB-Nzs"/>
+                            <constraint firstItem="opP-ac-VX7" firstAttribute="top" secondItem="rDy-gO-wI5" secondAttribute="bottom" constant="20" id="R6j-as-YiU"/>
                             <constraint firstItem="B4C-kv-lv8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uiw-kk-wyN"/>
                             <constraint firstItem="YKM-xC-jut" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="XkS-fo-Cl8"/>
-                            <constraint firstItem="opP-ac-VX7" firstAttribute="top" secondItem="rDy-gO-wI5" secondAttribute="bottom" constant="25" id="ZNK-hE-sI6"/>
                             <constraint firstItem="k5M-x4-6XH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bKB-s0-paz"/>
-                            <constraint firstItem="o9w-hI-Ddr" firstAttribute="top" secondItem="4Y9-3u-CH3" secondAttribute="bottom" constant="40" id="kcs-Xs-MGw"/>
                             <constraint firstItem="opP-ac-VX7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lgP-IH-rPh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iHS-RB-HWj" secondAttribute="trailing" constant="30" id="nVc-iT-3AR"/>
                             <constraint firstItem="Lph-ws-zHh" firstAttribute="top" secondItem="y6o-Ka-n4f" secondAttribute="bottom" constant="10" id="pPl-Bm-CXf"/>
@@ -138,21 +138,29 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="hKh-dz-JEG"/>
+                    <connections>
+                        <outlet property="assetTextField" destination="k5M-x4-6XH" id="T8A-6Y-byI"/>
+                        <outlet property="earningTextField" destination="YKM-xC-jut" id="Pa9-5s-ImS"/>
+                        <outlet property="equityTextField" destination="4Y9-3u-CH3" id="O8Y-Nb-kq9"/>
+                        <outlet property="numberOfStuckTextField" destination="Lph-ws-zHh" id="yff-dv-jsR"/>
+                        <outlet property="priceTextField" destination="iHS-RB-HWj" id="9uZ-J8-vOf"/>
+                        <outlet property="resultButton" destination="o9w-hI-Ddr" id="5F4-Fq-mqM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="852.17391304347836" y="115.84821428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="Yfj-Bo-jIt">
             <objects>
-                <viewController id="vEM-OQ-OqD" sceneMemberID="viewController">
+                <viewController id="vEM-OQ-OqD" customClass="ResultViewController" customModule="StockCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iVx-mJ-lBG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="equalSpacing" alignment="center" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="YN8-aV-Pvw">
-                                <rect key="frame" x="178.5" y="118" width="57.5" height="434"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="YN8-aV-Pvw">
+                                <rect key="frame" x="178.5" y="94" width="57.5" height="434"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaw-ta-FWl">
                                         <rect key="frame" x="3" y="0.0" width="51.5" height="35"/>
@@ -219,6 +227,7 @@
                             <constraint firstItem="YN8-aV-Pvw" firstAttribute="centerX" secondItem="iVx-mJ-lBG" secondAttribute="centerX" id="Ogw-Sb-RCL"/>
                             <constraint firstItem="YE6-H8-6WC" firstAttribute="leading" secondItem="pFD-Zg-TQH" secondAttribute="leading" constant="32" id="eau-I2-Iiu"/>
                             <constraint firstItem="YE6-H8-6WC" firstAttribute="top" secondItem="pFD-Zg-TQH" secondAttribute="top" constant="22" id="tV6-lb-d1W"/>
+                            <constraint firstItem="YN8-aV-Pvw" firstAttribute="top" secondItem="pFD-Zg-TQH" secondAttribute="top" constant="50" id="wjo-ip-UVz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pFD-Zg-TQH"/>
                     </view>
