@@ -61,11 +61,11 @@
 				AD6C22FD24762801008DDB82 /* AppDelegate.swift */,
 				AD6C22FF24762801008DDB82 /* SceneDelegate.swift */,
 				AD6C230124762801008DDB82 /* ViewController.swift */,
+				AD6C23112476350F008DDB82 /* ResultViewController.swift */,
 				AD6C230324762801008DDB82 /* Main.storyboard */,
 				AD6C230624762803008DDB82 /* Assets.xcassets */,
 				AD6C230824762803008DDB82 /* LaunchScreen.storyboard */,
 				AD6C230B24762803008DDB82 /* Info.plist */,
-				AD6C23112476350F008DDB82 /* ResultViewController.swift */,
 			);
 			path = StockCalc;
 			sourceTree = "<group>";

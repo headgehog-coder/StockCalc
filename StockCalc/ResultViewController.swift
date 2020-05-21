@@ -39,14 +39,18 @@ class ResultViewController: UIViewController {
             pbrLabel.text = "\(String(floorPbr))倍"
             roaLabel.text = "\(String(floorRoa))%"
             roeLabel.text = "\(String(floorRoe))%"
-        }else{
-            
-            alert(title: "エラー", message: "前画面にて0以外の数字を入力して下さい")
+        
             
         }
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if price == 0 || stock == 0 || earning == 0 || asset == 0 || equity == 0{
+              alert(title: "エラー", message: "前画面にて0以外の数字を入力して下さい")
+        }
+    }
      
 
     
